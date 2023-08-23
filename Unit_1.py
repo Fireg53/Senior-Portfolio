@@ -1,1 +1,1 @@
-hello worm
+print('hello worm')
