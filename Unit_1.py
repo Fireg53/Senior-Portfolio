@@ -7,16 +7,17 @@ for element in skissors:
 
 win_len = len(skissors) // 2
 
-com_choice = random.choice(skissors)[1]
-print(com_choice)
-
 while False:
     pl_choice = int(input(': '))
+    if pl_choice == com_choice:
+        print('again')
     print(pl_choice,com_choice)
     if pl_choice >= len(skissors) - win_len:
         pl_choice = pl_choice - len(skissors)
     if com_choice - pl_choice > 0 and  com_choice - pl_choice <= win_len:
          print(f'Yay! {pl_choice} beats {com_choice}')
+         break
     else:
        print(f'Noo! {com_choice} beats {pl_choice}')
+       break
 
