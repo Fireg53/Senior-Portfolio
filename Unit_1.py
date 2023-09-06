@@ -25,11 +25,11 @@ def playGame(out_of):
         if pl_choice >= len(skissors) - win_len:
             pl_choice = pl_choice - len(skissors)
         if com_choice - pl_choice > 0 and  com_choice - pl_choice <= win_len:
-            print(f'Yay! {skissors[pl_choice][1]}  beats {skissors[com_choice][1]}')
+            print(f'Yay! {skissors[pl_choice][0]}  beats {skissors[com_choice][0]}')
             out_of -= 1
             wins += 1
         else:
-            print(f'Noo! {skissors[com_choice][1]}  beats {skissors[pl_choice][1]}')
+            print(f'Noo! {skissors[com_choice][0]}  beats {skissors[pl_choice][0]}')
             out_of -= 1
             wins -= 1
     print()
