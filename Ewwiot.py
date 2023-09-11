@@ -2,8 +2,12 @@ print("You are off on your space mission! You've just taken off and left the Ear
 userInput = input("Enter A or B. A) Head towards Mars B) Head into empty space")
 
 if userInput == 'A':
-# Student 1 finishes this code
-
+ print("you're now on mars")
+     ui = input.("do you want to walk around. enter Y or N").lower()
+     if ui = "y":
+          print("an alien killed you")
+     if ui = "n":
+          print("an alien came over and shot you through your spaceship and is now stealing your ship to head back to earth and take over the planet")
 elif userInput == 'B':
 # Student 2 finishes this code 
 
