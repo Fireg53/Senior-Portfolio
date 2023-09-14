@@ -8,9 +8,12 @@ print("You are off on your space mission! You've just taken off and left the Ear
 userInput = input("Enter A or B. A) Head towards Mars B) Head into empty space: ")
 
 if userInput == 'A':
-# Student 1 finishes this code
-     pass
-
+ print("you're now on mars")
+     ui = input.("do you want to walk around. enter Y or N").lower()
+     if ui = "y":
+          print("an alien killed you")
+     if ui = "n":
+          print("an alien came over and shot you through your spaceship and is now stealing your ship to head back to earth and take over the planet")
 elif userInput == 'B':
      print('\n\nyou head off into empty space with no plan. Your crew ask if they should chart a course to a small nearby exoplanet')
      userInput = input("A) Head towards the unnamed exoplanet B) go farther into empty space: ")
@@ -28,4 +31,5 @@ elif userInput == 'B':
 
 else: 
      print("You entered something wrong - refresh and try again!")
+
 
